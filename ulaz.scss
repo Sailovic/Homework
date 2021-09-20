@@ -1,0 +1,120 @@
+$HeadingBkgColor: rgb(199, 24, 24);
+$bodyBkgColor: black;
+$pColor: white;
+$fontForH: 'Lobster Two', cursive;
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/bg.jpg);
+    margin: 0%;
+}
+.headerDiv {
+    background-color: $HeadingBkgColor;
+    color: black;
+    font-family: $fontForH;
+    font-size:xx-large;
+    width: 60%;
+    margin: auto;
+    border-radius: 0  0 15px 15px;
+        h1 {
+            margin: 0%;
+            display: inline-block;
+        }
+        a{
+            img {
+                
+                width: 4%;
+                position: relative;
+                left: 34%;
+                padding: 40px 0 0 0;
+                background-color: black;
+                border-radius: 0 0 15px 15px;
+
+            }
+        }
+}
+
+.bodyDiv {
+    max-height: 670px;
+    width: 60%;
+    position: relative;
+    margin: 2% auto;
+    background-color: $bodyBkgColor;
+    color: $pColor;
+    border-radius: 15px;
+        img{
+            width: 50%;
+            height: 40%;
+            padding: none;
+            display: inline-block;
+        }
+        h2{
+            font-family: $fontForH;
+            color: black;
+            background-color: white;
+            display: inline-block;
+            position: relative;
+            left: 28%;
+            bottom: 340px;
+            font-size:xx-large;
+            padding: 0 2%;
+            
+        }
+        .p1 {
+            display: inline-block;
+            width: 45%;
+            text-align: justify;
+            position: relative;
+            left: 53%;
+            bottom: 350px;
+        }
+    
+}
+
+.row {
+    width: 100%;
+    margin: 0 2%;
+    position: relative;
+    bottom: 340px;
+
+    h3{
+       background-color: $HeadingBkgColor;
+       text-indent: 3%; 
+    }
+
+    .col1, .col2 {
+        border-right: 3px solid gray;
+    }
+    .column {
+        display: inline-block;
+        position: relative;
+        width: 30%;
+        text-align: justify;
+        padding: 0 0.8%;
+
+        a{
+            background-color: white;
+            color: black;
+            text-decoration: none;
+            padding: 1%;
+        }
+      }
+}
+
+.footerDiv {
+    margin: auto;
+    width: 60%;
+    background-color: white;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 13px;
+        img {
+            position: relative;
+            left: 6px;
+            padding: 4px 1px 2px 1px;
+        }
+
+}
+
+
